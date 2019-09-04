@@ -1,0 +1,34 @@
+src/*.exe
+src/stonkcoin
+src/stonkcoind
+src/test_stonkcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.stonkcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+stonkcoin-qt
+StonkCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+stonkcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
